@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>fast_idler_supports_detection</name>
+  <version>0.1.0</version>
+  <description>Fast detection of idler supports in various environments using PCL and density histograms.</description>
+  <maintainer email="delicat.kuba@gmail.com">Jakub Delicat</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>libpcl</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>yaml-cpp</build_depend>
+  <build_depend>vision_msgs</build_depend>
+
+  <depend>vision_msgs_rviz_plugins</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
