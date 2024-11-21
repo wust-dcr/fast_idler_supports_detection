@@ -9,11 +9,21 @@ Fast detection of idler supports in various environments using ROS 2 with PCL an
 
 If you use this work in an academic context, please cite the following publication:
 
-* > J. Jakubiak, J. Delicat,
-  > **"Fast detection of idler supports using density histograms in belt conveyors inspection with a mobile robot"**
+> J. Jakubiak, J. Delicat,
+> **"Fast detection of idler supports using density histograms in belt conveyors inspection with a mobile robot"**
 
-        @article{
-        }
+    @Article{app142310774,
+        author = {Jakubiak, Janusz and Delicat, Jakub},
+        title = {Fast Detection of Idler Supports Using Density Histograms in Belt Conveyor Inspection with a Mobile Robot},
+        journal = {Applied Sciences},
+        volume = {14},
+        year = {2024},
+        number = {23},
+        article-number = {10774},
+        url = {https://www.mdpi.com/2076-3417/14/23/10774},
+        issn = {2076-3417},
+        doi = {10.3390/app142310774}
+    }
 
 ## Dataset
 You can download the dataset used in our experiments from the following link:
